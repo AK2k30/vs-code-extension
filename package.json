@@ -1,0 +1,54 @@
+{
+  "name": "generate-folder-readme-agent-vsix",
+  "displayName": "Generate Folder README Agent Extension",
+  "description": "An IDE extension that generates a README for a folder with AI",
+  "version": "0.0.0",
+  "engines": {
+    "vscode": "^1.83.2"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "images/oxo.png",
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "readmeagent.createFolderReadme",
+          "when": "explorerResourceIsFolder"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "readmeagent.createFolderReadme",
+        "title": "Generate README.md"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "npm run check-types && npm run lint && node esbuild.js",
+    "dev": "npm-run-all -p dev:*",
+    "dev:esbuild": "node esbuild.js --watch",
+    "dev:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@google/generative-ai": "^0.10.0",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.83.1",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "@vscode/vsce": "^2.26.1",
+    "dotenv": "^16.4.5",
+    "esbuild": "^0.20.2",
+    "eslint": "^8.57.0",
+    "istextorbinary": "^9.5.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.4.5"
+  }
+}
