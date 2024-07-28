@@ -94,3 +94,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or feedback, feel free to open an issue on GitHub or contact the project maintainer at [Akash Singh](https://akashsingh.vercel.app/).
 
 Thank you for using the README Generator for VS Code Extension! We hope it helps you create great documentation for your projects.
+
+## Support
+
+#### If you like this project, show your support & love!
+
+[![buy me a coffee](https://res.cloudinary.com/customzone-app/image/upload/c_pad,w_200/v1712840190/bmc-button_wl78gx.png)](https://www.buymeacoffee.com/akashsunile)
