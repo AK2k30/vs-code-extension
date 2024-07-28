@@ -1,8 +1,6 @@
 # README Generator for VS Code Extension
 
-<div align="center">
-    <img src="https://github.com/user-attachments/assets/54f9b5c9-22a9-43d5-baa5-798e8545d736" alt="cover image" width="600" height="300">
-</div>
+![image](https://github.com/user-attachments/assets/ad187987-0eac-429c-94aa-a2a452489356)
 
 ## Overview
 
