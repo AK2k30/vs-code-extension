@@ -1,16 +1,16 @@
 {
   "name": "generate-folder-readme-agent-vsix",
-  "publisher": "oxo",
+  "publisher": "ak2k24",
   "displayName": "Generate README.md",
   "description": "An IDE extension that generates a README for a folder with AI",
-  "version": "^1.0.0",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.83.2"
   },
   "categories": [
     "Other"
   ],
-  "icon": "images/oxo.png",
+  "icon": "image/oxo.png",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
@@ -51,5 +51,9 @@
     "istextorbinary": "^9.5.0",
     "npm-run-all": "^4.1.5",
     "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AK2k30/vs-code-extension"
   }
 }
