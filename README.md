@@ -1,5 +1,9 @@
 # README Generator for VS Code Extension
 
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/54f9b5c9-22a9-43d5-baa5-798e8545d736" alt="cover image" width="600" height="300">
+</div>
+
 ## Overview
 
 Welcome to the **README Generator for VS Code Extension**! This tool helps you automatically generate detailed `README.md` files for your projects using AI. It aims to save you time and effort, ensuring your project documentation is comprehensive, well-structured, and professional.
@@ -89,6 +93,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, feel free to open an issue on GitHub or contact the project maintainer at your.email@example.com.
+For any questions or feedback, feel free to open an issue on GitHub or contact the project maintainer at [Akash Singh](https://akashsingh.vercel.app/).
 
 Thank you for using the README Generator for VS Code Extension! We hope it helps you create great documentation for your projects.
