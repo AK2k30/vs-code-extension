@@ -1,5 +1,6 @@
 {
   "name": "generate-folder-readme-agent-vsix",
+  "publisher": "oxo",
   "displayName": "Generate Folder README Agent Extension",
   "description": "An IDE extension that generates a README for a folder with AI",
   "version": "0.0.0",
