@@ -6,6 +6,16 @@
 
 Welcome to the **README Generator for VS Code Extension**! This tool helps you automatically generate detailed `README.md` files for your projects using AI. It aims to save you time and effort, ensuring your project documentation is comprehensive, well-structured, and professional.
 
+> NOTE
+> 
+> Please be aware that the API used in this project has a rate limit. If the project does not work as expected, try to fork the project locally and then add your API key to avoid rate limit issues. This is the original repo of this project [Generate README](https://github.com/AK2k30/vs-code-extension)
+
+## Demo Video
+
+Below is a demo video showcasing how to use the README Generator for VS Code. 
+
+https://github.com/user-attachments/assets/9acc3dbf-4e2e-422f-918a-ddd33c720c97
+
 ## Features
 
 - **Automated README Generation**: Generate a `README.md` file with a single command.
@@ -84,6 +94,10 @@ We welcome contributions from the community! To contribute:
     git push origin feature/your-feature-name
     ```
 6. **Create a Pull Request**: Go to the repository on GitHub and create a pull request from your branch.
+
+## Extension
+
+[View here](https://marketplace.visualstudio.com/items?itemName=ak2k24.generate-folder-readme-agent-vsix)
 
 ## License
 
